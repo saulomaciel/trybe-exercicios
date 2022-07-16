@@ -1,4 +1,54 @@
-h3 :hover {
-    border: 3px;
-    border-color: grey;
+div :hover {
+    border: solid gray;
+}
+
+
+div:nth-child(odd) {
+    font-style: italic;
+}
+
+
+div:nth-of-type(1) {
+    background-color: magenta;
+}
+div:nth-of-type(1) h3 {
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+div:nth-of-type(2) {
+    background-color: red;
+}
+div:nth-of-type(2) h3 {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+div:nth-of-type(3) {
+    height: 30px ;
+    background-color: green;
+}
+div:nth-of-type(3) h3 {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div:nth-of-type(4) {
+    background-color: darkmagenta;
+}
+div:nth-of-type(4) h3 {
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+div:nth-of-type(5) {
+    background-color: lightpink;
+}
+div:nth-of-type(5) h3 {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
 }
